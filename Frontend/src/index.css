@@ -1,0 +1,14 @@
+.w-full.p-password .p-icon-field{
+    width: 100%;
+}
+
+.w-full.p-password input{
+    width: 100%;
+}
+
+.p-float-label input:focus ~ label, .p-float-label input:-webkit-autofill ~ label, .p-float-label input.p-filled ~ label, .p-float-label textarea:focus ~ label, .p-float-label textarea.p-filled ~ label, .p-float-label .p-inputwrapper-focus ~ label, .p-float-label .p-inputwrapper-filled ~ label, .p-float-label .p-tooltip-target-wrapper ~ label{
+    top: 2px;
+    font-size: 12px;
+    background: #ffff;
+    padding: 0px 5px;
+}
